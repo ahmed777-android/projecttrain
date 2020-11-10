@@ -1,4 +1,4 @@
-package com.example.projecttrain.ui
+package com.example.projecttrain.model
 
 import androidx.lifecycle.ViewModel
 

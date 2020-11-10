@@ -7,8 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.projecttrain.R
+import com.example.projecttrain.model.DownloadViewModel
 
-class DownloadFragment : Fragment() {
+ class DownloadFragment : Fragment() {
 
     companion object {
         fun newInstance() = DownloadFragment()

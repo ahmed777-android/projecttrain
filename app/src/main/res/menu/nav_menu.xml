@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeFragment"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="@string/text_label_1"/>
     <item
-        android:id="@+id/fav"
+        android:id="@+id/favoriteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:title="@string/text_label_4"/>
+
+    <item
+        android:id="@+id/searchFragment"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_favorite_24"
         android:title="@string/text_label_2"/>
     <item
-        android:id="@+id/search"
+        android:id="@+id/downloadFragment"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_search_24"
         android:title="@string/text_label_3"/>
-    <item
-        android:id="@+id/dowload"
-        android:enabled="true"
-        android:icon="@drawable/ic_baseline_arrow_downward_24"
-        android:title="@string/text_label_4"/>
 
 </menu>

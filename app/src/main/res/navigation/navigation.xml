@@ -8,25 +8,26 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.projecttrain.ui.HomeFragment"
-        android:label="homr_fragment"
+        android:label="@string/text_label_1"
         tools:layout="@layout/homr_fragment" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.projecttrain.ui.FavoriteFragment"
+        android:label="@string/text_label_2"
+        tools:layout="@layout/favorite_fragment" />
+
 
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.example.projecttrain.ui.SearchFragment"
-        android:label="search_fragment"
+        android:label="@string/text_label_3"
         tools:layout="@layout/search_fragment" />
 
 
     <fragment
         android:id="@+id/downloadFragment"
         android:name="com.example.projecttrain.ui.DownloadFragment"
-        android:label="download_fragment"
+        android:label="@string/text_label_4"
         tools:layout="@layout/download_fragment" />
-    <fragment
-        android:id="@+id/favoriteFragment"
-        android:name="com.example.projecttrain.ui.FavoriteFragment"
-        android:label="favorite_fragment"
-        tools:layout="@layout/favorite_fragment" />
 
 </navigation>

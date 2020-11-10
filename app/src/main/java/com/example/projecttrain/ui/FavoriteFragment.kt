@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.projecttrain.R
+import com.example.projecttrain.model.FavoriteViewModel
 
 class FavoriteFragment : Fragment() {
 
