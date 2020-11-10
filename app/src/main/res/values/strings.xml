@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">projecttrain</string>
+    <string name="text_label_1">Home</string>
+    <string name="text_label_2">Favorite</string>
+    <string name="text_label_3">Search</string>
+    <string name="text_label_4">Download</string>
+</resources>
